@@ -1,0 +1,26 @@
+<annotation>
+	<folder>images</folder>
+	<filename>11_11192019_13_06_12.jpg</filename>
+	<path>/home/test/Desktop/xml_test/images/11_11192019_13_06_12.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>4096</width>
+		<height>2160</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>product</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>454</xmin>
+			<ymin>1390</ymin>
+			<xmax>1011</xmax>
+			<ymax>1918</ymax>
+		</bndbox>
+	</object>
+</annotation>
