@@ -6,6 +6,7 @@ root_path = "xml"
 label_path = './data'
 xml_dir_list = os.listdir(root_path)
 
+
 f = open(label_path + '/predefined_classes.txt', 'r')
 labels = f.readlines()
 f.close()
@@ -17,6 +18,13 @@ for label in labels:
 
 #xml_list = sorted(os.listdir(root_path))
 xml_list = glob.glob('./xml/*/*')
+
+
+def get_root(file_path):
+    tree = ET.parse(file_path)
+    root = tree.getroot()
+    return root
+
 
 def check_xml():
     print("1.fault label name checking...")
